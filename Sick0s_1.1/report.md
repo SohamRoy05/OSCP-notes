@@ -13,18 +13,18 @@
 ## Gaining Access:
    * Configure your web browser according to proxy settings required.
    * After configuring, we find out that a webserver is running on port 80.
-   * From **robots.txt** file, we find out that wolfcms is running we can access with the url    *<Machine IP>:80/wolfcms/*.
+   * From **robots.txt** file, we find out that wolfcms is running we can access with the url    *Machine IP:80/wolfcms/*.
      
      ![robots](screenshots/robots.png)
 
-   * Running nikto in the background, we find out that a admin login page with url *<Machine IP>:80/wolfcms/?admin/login.php* exists.
+   * Running nikto in the background, we find out that a admin login page with url *Machine IP:80/wolfcms/?admin/login.php* exists.
 
       ![login](screenshots/login.png)
    
    * Trying our luck, we put username:password as admin:admin.
    * Bingo!!! We logged in as **admin** :).
    * Navigating through the account we find out that we upload files.
-   * We uploaded a php-reverse-shell ,started a netcat listener `nc -lvnp 4444` and then executed the file with url *<Machine IP>/wolfcms/public/reverse.php*.
+   * We uploaded a php-reverse-shell ,started a netcat listener `nc -lvnp 4444` and then executed the file with url *Machine IP/wolfcms/public/reverse.php*.
       
       ![upload](screenshots/upload.png)
       ![reverse](screenshots/reverse.png)
