@@ -18,11 +18,17 @@
      ![robots](screenshots/robots.png)
 
    * Running nikto in the background, we find out that a admin login page with url *<Machine IP>:80/wolfcms/?admin/login.php* exists.
+
+      ![login](screenshots/login.png)
+   
    * Trying our luck, we put username:password as admin:admin.
    * Bingo!!! We logged in as **admin** :).
    * Navigating through the account we find out that we upload files.
-   * We uploaded a php-reverse-shell ,started a netcat listener `nc -lvnp 4444` and then executed the file with url *<Machine IP>/wolfcms/
-     public/reverse.php*.
+   * We uploaded a php-reverse-shell ,started a netcat listener `nc -lvnp 4444` and then executed the file with url *<Machine IP>/wolfcms/public/reverse.php*.
+      
+      ![upload](screenshots/upload.png)
+      ![reverse](screenshots/reverse.png)
+
    * BOOM!!! We got **Shell**.
    
 
@@ -31,13 +37,26 @@
    * Navigating through our target, we find a file named **config.php** in which we find a password *john@123* for *root* user for *mysql 
      server* and a database *wolf*.
    * We logged into mysql with the credentials using the command `mysql --user=root --password=john@123 wolf`
+
+      ![mysql](screenshots/mysql.png)
+
    * We didn't find anything interesting in that database.
    * Using command `cat /etc/passwd`, we find out that there is interesting user named *sickos*(interesting because it is name of the target).
+   
+      ![passwd](screenshots/passwd.png)
+
    * We tried to change user to *sickos* with  password *john@123* using command `su sickos`.
    * Bingo! We logged in as sickos.
+
+      ![sickos](screenshots/sickos.png)
+
    * `groups` command show that *sickos* is a member of *sudo* group and `sudo -l` shows that user *sickos* can run all commands as 
     superuser(root).
    * We used command `sudo /bin/bash`.
+
+      ![sickos](screenshots/sickos.png)
+      ![root](screenshots/rootpng)
+
    * Yeah!!! We are **root** 
 
    
