@@ -55,7 +55,7 @@
    * We used command `sudo /bin/bash`.
 
       ![sickos](screenshots/sickos.png)
-      ![root](screenshots/rootpng)
+      ![root](screenshots/root.png)
 
    * Yeah!!! We are **root** 
 
