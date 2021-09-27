@@ -1,0 +1,63 @@
+
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+\b      - Word Boundary
+\B      - Not a Word Boundary
+^       - Beginning of a String
+$       - End of a String
+
+[]      - Matches Characters in brackets
+[^ ]    - Matches Characters NOT in brackets
+|       - Either Or
+( )     - Group
+
+Quantifiers:
+*       - 0 or More
++       - 1 or More
+?       - 0 or One
+{3}     - Exact Number
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+
+
+7774082
+7252474
+elliot@delivery.htb 
+7072935@delivery.htb
+7072935\
+maildeliverer:Youve_G0t_Mail!
+9504817
+9504817@delivery.htb
+
+PleaseSubscribe!
+
+mmuser:mmuser:Crack_The_MM_Admin_PW
+
+$2a$10$VM6EeymRxJ29r8Wjkr8Dtev0O.1STWb4.4ScG.anuu7v0EFJwgjjO
+
+
+-n30
+access4u@security
+
+Bob - !P@$$W0rD!123
+Bill - Juw4nnaM4n420696969!$$$ 
+
+
+{"iv":"Nlb1aJx7OLliL+GHAXJRXw==","value":"OQSEOnxaSj4SDaJiLF9W2ga6AC8TOv+X1la6jfm5PHpq1KjHYDsFheJSX3FyYWSnqDehwA51JnfByin9rOPoOmnIJF6/lziEuq43Akgw7vbvND+DuH2N6EdvLOxCCsgg","mac":"7fd3840af6f46b5a1cddfd0b85d6361801a8cec2548ded92b0b425b9d0c219c7"}
+
+
+1|jr|nginxatsu-adm-01@makelarid.es|e7816e9a10590b1e33b87ec2fa65e6cd|W5M5VcmevyBTnN6V3ciTvg1Uz6PoqW9qiMeWT6WL9pgF0TEUYNwlrbtUPj71gIteFz5V||2021-09-22 15:13:28|2021-09-22 15:13:28|adminadmin1
+
+2|Giovann1|nginxatsu-giv@makelarid.es|a8204d4ca7c9a3e2e3b2e5195c7a6206|TpaSUfQjk6CHAJmPcWRlHPtqB0JRjeBDbAmNnEhnT6sD4oVlxiu9EEqqBVqYDeaoSDCB||2021-09-22 15:13:28|2021-09-22 15:13:28
+
+3|me0wth|nginxatsu-me0wth@makelarid.es|3dfefb5a939267bea9a0afe4c8a2f28b|Gb8i4mVVfY8pCH3rP0rPWK5RVeaeUtz33iXsYdgTnPZg1QzrQ0ZpIuPv4prod9SIfP8n||2021-09-22 15:13:28|2021-09-22 15:13:28
