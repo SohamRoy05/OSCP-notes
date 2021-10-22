@@ -9,6 +9,8 @@
 
 `sudo -l`
 
+`crontab -l`
+
 
 ### Find Setuid enabled Programs
 `find / -perm -u=s -type f 2>/dev/null`
@@ -38,4 +40,22 @@ Connect to Mysql server from the victim : `mysql -u username -h localhost --pass
 * `cat ~/.bash_history`
 
 * Always check the home and tmp directories.
- 
+
+scp charix@10.10.10.84:/home/charix/secret.zip .
+
+vncviewer 127.0.0.1:5000 -passwd secret 
+
+ssh -L 5000:127.0.0.1:5901 charix@10.10.10.84  
+
+cat /etc/crontab
+
+### GIT Commands:
+
+# Whenever you see .git files try out these commands 
+
+* `git log`: Display git history
+* `git log --oneline` : Display git history with one commit per line
+* `git log -p` : Display changes made in files in each commit.
+* 
+
+

