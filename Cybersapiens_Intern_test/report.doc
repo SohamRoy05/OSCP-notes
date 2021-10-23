@@ -1,0 +1,18 @@
+Information Gathering
+
+1. Directory Bruteforcing 
+
+   Tools Used: Gobuster
+
+   Command: gobuster dir -k -u https://ergos.in -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt|tee gobuster.txt
+
+   Screenshots:
+
+   Summary:
+
+   1. wp-includes, wp-admin proves that this website is made up of wordpress.
+   2. Cgi-bin directory is also exposed which contains all the cgi-scripts. This can lead to a potential shellshock attack.
+   3.  
+
+
+
