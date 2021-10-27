@@ -10,9 +10,52 @@ Information Gathering
 
    Summary:
 
-   1. wp-includes, wp-admin proves that this website is made up of wordpress.
-   2. Cgi-bin directory is also exposed which contains all the cgi-scripts. This can lead to a potential shellshock attack.
-   3.  
+      1. wp-includes, wp-admin proves that this website is made up of wordpress.
+      2. Cgi-bin directory is also exposed which contains all the cgi-scripts. This can lead to a potential shellshock attack. But while visiting it, with help of burpsuite, it turns out
+         that it is giving a status code of 403(Forbidden). Same is for /mailman page and /wp-includes/ directory. 
+      3. Some pages were redirecting to a different page containg some date and name in the path. Seems like they are some posts made on the date mentioned 
+         in the URL. 
+      4. wp-login.php page and a webmail can also be found.
+
+
+2. Robots.txt
+    
+   Screenshots:
+
+    Summary:
+
+       1. robots.txt file disallows any user-agent to visit /wp-admin/ directory. Trying to visit that directory will redirect the request to /wp-login.php
+       2. However, robots.txt file allows visiting the page /wp-admin/admin-ajax.php. But, visiting this page only displays "0".
+       3. Sitemap can also be seen in xml format. Admin is the only user who is responsible for wrting the posts.   
+    
+3. xmlrpc.php
+
+   Description:
+
+      XML-RPC on WordPress is actually an API that allows developers who make 3rd party application and services the ability to interact to your WordPress site. The XML-RPC API that WordPress provides several key functionalities that include:
+
+      * Publish a post
+      * Edit a post
+      * Delete a post.
+      * Upload a new file (e.g. an image for a post)
+      * Get a list of comments
+      * Edit comments
+
+
+   Screenshots:
+
+   Summary:
+      1. Since it is a wordpress website, there was a possibility for the xmlrpc.php file to be exposed. And it is exposed.  
+      2. After checking the functionality of the XML-RPC server, it seems like the XML-RPC server is disabled. Following xml document was used to check the funtionality.
+         <?xml version="1.0" encoding="utf-8"?> 
+         <methodCall> 
+         <methodName>system.listMethods</methodName> 
+         <params></params> 
+         </methodCall>
+          
+
+
+
 
 
 
