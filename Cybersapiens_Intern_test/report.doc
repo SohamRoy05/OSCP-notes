@@ -47,15 +47,47 @@ Information Gathering
    Summary:
       1. Since it is a wordpress website, there was a possibility for the xmlrpc.php file to be exposed. And it is exposed.  
       2. After checking the functionality of the XML-RPC server, it seems like the XML-RPC server is disabled. Following xml document was used to check the funtionality.
+         
          <?xml version="1.0" encoding="utf-8"?> 
          <methodCall> 
          <methodName>system.listMethods</methodName> 
          <params></params> 
          </methodCall>
-          
+
+4. Article Posts:
+
+   Screenshots:
+
+   Summary: 
+      1. Articles list can be found in the url https://ergos.in/wp-sitemap-posts-post-1.xml 
+      2. All articles have a "Submit a comment" section which requires user input.   
 
 
 
 
+Tools/Methods Used:
+
+ 1. XSS(Reflected):
+
+      * Since comments field takes user input, there is a possibility of cross site scripting.
+      * Following data was given as input
+         
+         Screenshots 
+
+      * The input data is reflected as it is and is undergoing moderation, which is one of the features of wordpress. Also, by default, a plugin named Akismet Anti-Spam is already active 
+        on every wordpress website. So, none of the comments were able to bypass the moderation. 
+      
+      * Input data in script tags was also put as shown below
+
+        Screenshots   
+
+      * It seems like it is running Mod_Security 
+        ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs. 
+        It has a robust event-based programming language which provides protection from a range of attacks against web applications and allows for HTTP traffic monitoring, 
+        logging and real-time analysis. It protects from attacks like XSS, SQLi, etc.
+        
 
 
+2. SQLi:
+
+      *
