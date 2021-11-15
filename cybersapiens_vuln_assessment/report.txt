@@ -1,0 +1,56 @@
+
+Vulnerabilities found :
+
+1. SQL injection(admin login page):
+
+URL : https://thc.cybersapiens.in/admin/
+
+
+POC : 
+
+ Payload Used - 'OR 1=1 -- - 
+
+ 1. Injecting the payload in the Username redirects us to the https://thc.cybersapiens.in/admin//welcome.php page.
+
+    Screenshots 
+
+
+
+Note: For all the following vulnerabilties, a account has to made in the url - https://thc.cybersapiens.in/login/register.php. And with the registered username and password, sign in to the 
+      account in https://thc.cybersapiens.in/login/login.php page.
+      Screenshots 
+
+
+
+2. Price Manipulation:
+
+URL : https://thc.cybersapiens.in/login/shopping.php
+
+POC : 
+
+ Prices of the items can be manipulated with help of Burp Proxy. This is mainly due to failure of validation of user input on the server side.  
+ 
+ Screenshots:
+
+
+
+
+
+3. SQL injection(dashboard page):
+
+URL : https://thc.cybersapiens.in/login/dashboard.php
+
+POC :
+
+ Payload Used - 'OR 1=1 -- - 
+
+ 1.      
+   Screenshots:
+
+
+4. File Upload Vulnerabiltiy:
+
+
+5. HTML injection 
+
+

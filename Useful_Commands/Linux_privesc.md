@@ -56,6 +56,6 @@ cat /etc/crontab
 * `git log`: Display git history
 * `git log --oneline` : Display git history with one commit per line
 * `git log -p` : Display changes made in files in each commit.
-* 
+* `git reset HEAD^` : Undo the commits (Very Imp).
 
 
