@@ -4,7 +4,9 @@
 ## Linux: 
 
 ### Python pty Shell
-`python -c 'import pty;pty.spawn("/bin/bash")'`
+1.`python3 -c 'import pty;pty.spawn("/bin/bash")'`
+2. Ctrl+Z
+3. stty raw -echo;fg 
 
 ### Perl system command one liner
 `perl -e 'system("/bin/bash -p");'`

