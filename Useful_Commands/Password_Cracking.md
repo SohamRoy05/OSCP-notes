@@ -16,4 +16,12 @@
 (use -l if u have single username or -p for single password)
 
 
+### John The Ripper
+
+ * Extracting Passphrase from an encrypted private key
+
+   1. Convert the key to a hash format that can be used for *John*. Command - `python /usr/share/john/ssh2john.py id_rsa > id_rsa.hash`.
+   2. Bruteforce the hash againt the wordlists. Command - `john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.hash`
+   3. We can see the cracked password or the status by using the command - `john --show id_rsa.hash`     
+
 
